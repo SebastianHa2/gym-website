@@ -1261,6 +1261,10 @@ form{
     .footer-wrapper{
         height: auto;
     }
+
+    .map iframe{
+        width: 65%;
+    }
 }
 
 @media(max-width: 500px){
