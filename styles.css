@@ -875,6 +875,48 @@ form{
 
 /* MEDIA QUERIES */
 
+@media(max-height: 650px){
+    .membership{
+        height: 50rem;
+        width: 32rem;
+    }
+
+    .membership h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .membership h3{
+        font-size: 2rem;
+        margin-bottom: 2rem;;
+    }
+    
+    .membership p{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .membership img{
+        width: 15rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .membership ul li{
+        margin: 1rem;
+    }
+
+    .membership-btn{
+        width: 50%;
+        font-size: 1.5rem;
+    }
+
+    #trainers-heading{
+        margin-top: 3rem;
+    }
+}
+
 @media(max-width: 1250px){
     .personal-sessions a{
         font-size: 1.6rem;
@@ -942,11 +984,15 @@ form{
 @media(max-width: 1000px){
     .membership{
         width: 25rem;
-        height: 45rem;
+        height: 47rem;
     }
 
     .membership ul li{
         font-size: 1.2rem;
+    }
+
+    .membership p{
+        margin-bottom: 1.4rem;
     }
 
     .membership h1{
@@ -1275,6 +1321,8 @@ form{
         font-size: 50%;
     }
 }
+
+
 
 
 
