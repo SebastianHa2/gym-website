@@ -888,9 +888,7 @@ form{
     .christmas-promotion p{
         font-size: 1.1rem;
     }
-}
 
-@media(max-width: 1150px){
     .gym-gallery{
         grid-template-columns: 1fr;
     }
@@ -1277,6 +1275,7 @@ form{
         font-size: 50%;
     }
 }
+
 
 
 
