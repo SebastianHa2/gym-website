@@ -9,7 +9,7 @@ rightArrow.addEventListener("click", changeSlides)
 document.addEventListener("DOMContentLoaded", autoChange)
 
 
-// Function to change slides automatically
+// FUNCTION TO CHANGE SLIDES AUTOMATICALLY
 function autoChange(){
     setInterval(() => {
         slideNum++
@@ -29,7 +29,7 @@ function autoChange(){
     }, 10000)
 }
 
-// Function to change slides
+// FUNCTION TO CHANGE SLIDES
 let slideNum = 1
 
 function changeSlides(e){
@@ -67,7 +67,7 @@ function changeSlides(e){
     }
 }
 
-// Scroll event functions
+// SCROLL EVENT FUNCTIONS
 
 
 window.addEventListener("scroll", ()=>{
@@ -83,7 +83,7 @@ window.addEventListener("scroll", ()=>{
     }
 })
 
-// Contact-us label move up 
+// CONTACT-US LABEL MOVE UP
 
 
 const inputs = document.querySelectorAll(".input")
